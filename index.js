@@ -23,5 +23,6 @@ axios.put(url, {
 })
 .catch(function (error) {
     console.log(error)
+    process.exit(-1)
 })
 
